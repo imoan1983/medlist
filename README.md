@@ -65,3 +65,6 @@ src/checkFiles.pyの結果にざっと目を通したものをoutput/にアッ�
 * [中国四国厚生局](http://kouseikyoku.mhlw.go.jp/chugokushikoku/chousaka/chousaka01.html)
 * [四国厚生支局](http://kouseikyoku.mhlw.go.jp/shikoku/gyomu/gyomu/hoken_kikan/shitei/)
 * [九州厚生局](http://kouseikyoku.mhlw.go.jp/kyushu/gyomu/gyomu/hoken_kikan/)
+
+#LICENSE
+このリポジトリに含まれるコードはApache License 2.0に従って配布しています。
