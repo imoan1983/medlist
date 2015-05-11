@@ -13,7 +13,7 @@ def main(argv):
     print('')
     
     print('summary')
-    print('県\t医科\t歯科\t薬局\t他\t日付')
+    print('県\t医科\t歯科\t薬局\t他\t最小日付\t最大日付\t')
     print('----------------------------------------------------------')
     os.system('q -t " \
                SELECT C4/10000000, \
@@ -21,7 +21,8 @@ def main(argv):
                       COUNT(CASE WHEN C3=\'歯科\' THEN 1 ELSE NULL END), \
                       COUNT(CASE WHEN C3=\'薬局\' THEN 1 ELSE NULL END), \
                       COUNT(CASE WHEN C3 NOT IN (\'医科\',\'歯科\',\'薬局\') THEN 1 ELSE NULL END) ,\
-                      C2\
+                      MIN(C2), \
+                      MAX(C2) \
                FROM   %s \
                GROUP BY C4/10000000 \
                ORDER BY C4/10000000 \
