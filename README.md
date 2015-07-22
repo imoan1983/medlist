@@ -62,7 +62,7 @@ src/checkFiles.pyの結果にざっと目を通したものをreleaseしてい�
     * [長野県](http://kouseikyoku.mhlw.go.jp/kantoshinetsu/gyomu/bu_ka/nagano/)
 * [東海北陸厚生局](http://kouseikyoku.mhlw.go.jp/tokaihokuriku/gyomu/gyomu/hoken_kikan/shitei.html)
 * [近畿厚生局](http://kouseikyoku.mhlw.go.jp/kinki/gyomu/gyomu/hoken_kikan/shitei_jokyo.html)
-* [中国四国厚生局](http://kouseikyoku.mhlw.go.jp/chugokushikoku/chousaka/chousaka01.html)
+* [中国四国厚生局](http://kouseikyoku.mhlw.go.jp/chugokushikoku/chousaka/shisetsukijunjuri.html)
 * [四国厚生支局](http://kouseikyoku.mhlw.go.jp/shikoku/gyomu/gyomu/hoken_kikan/shitei/)
 * [九州厚生局](http://kouseikyoku.mhlw.go.jp/kyushu/gyomu/gyomu/hoken_kikan/)
 
