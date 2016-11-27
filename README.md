@@ -39,6 +39,7 @@
     * data3.tsv : 都道府県ごと・種別ごとの行数カウント, 空欄のチェック  
 
 ##処理済みファイル
+\[2015/08/10以前\]
 10日に1度、自動処理しています。(環境：ubuntu14)  
 src/checkFiles.pyの結果にざっと目を通したものをreleaseしていきます。
 
@@ -49,17 +50,7 @@ src/checkFiles.pyの結果にざっと目を通したものをreleaseしてい�
 ###地方厚生局WEBサイト
 * [北海道厚生局](http://kouseikyoku.mhlw.go.jp/hokkaido/gyomu/gyomu/hoken_kikan/todokede_juri_ichiran.html)
 * [東北厚生局](http://kouseikyoku.mhlw.go.jp/tohoku/gyomu/gyomu/hoken_kikan/itiran.html)
-* 関東信越厚生局
-    * [茨城県](http://kouseikyoku.mhlw.go.jp/kantoshinetsu/gyomu/bu_ka/ibaraki/)
-    * [栃木県](http://kouseikyoku.mhlw.go.jp/kantoshinetsu/gyomu/bu_ka/tochigi/)
-    * [群馬県](http://kouseikyoku.mhlw.go.jp/kantoshinetsu/gyomu/bu_ka/gunma/)
-    * [千葉県](http://kouseikyoku.mhlw.go.jp/kantoshinetsu/gyomu/bu_ka/chiba/)
-    * [埼玉県](http://kouseikyoku.mhlw.go.jp/kantoshinetsu/gyomu/bu_ka/shido_kansa/)
-    * [東京都](http://kouseikyoku.mhlw.go.jp/kantoshinetsu/gyomu/bu_ka/tokyo/)
-    * [神奈川県](http://kouseikyoku.mhlw.go.jp/kantoshinetsu/gyomu/bu_ka/kanagawa/)
-    * [新潟県](http://kouseikyoku.mhlw.go.jp/kantoshinetsu/gyomu/bu_ka/niigata/)
-    * [山梨県](http://kouseikyoku.mhlw.go.jp/kantoshinetsu/gyomu/bu_ka/yamanashi/)
-    * [長野県](http://kouseikyoku.mhlw.go.jp/kantoshinetsu/gyomu/bu_ka/nagano/)
+* [関東信越厚生局](http://kouseikyoku.mhlw.go.jp/kantoshinetsu/chousa/kijyun.html)
 * [東海北陸厚生局](http://kouseikyoku.mhlw.go.jp/tokaihokuriku/gyomu/gyomu/hoken_kikan/shitei.html)
 * [近畿厚生局](http://kouseikyoku.mhlw.go.jp/kinki/gyomu/gyomu/hoken_kikan/shitei_jokyo.html)
 * [中国四国厚生局](http://kouseikyoku.mhlw.go.jp/chugokushikoku/chousaka/shisetsukijunjuri.html)
