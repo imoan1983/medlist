@@ -19,12 +19,12 @@ def getUrlList(url):
 
     for h in html:
 
-        #find link for pdf like <a href='*.pdf'>*</a>
-        u = re.findall('<a href="(.+\.pdf)"', h)
+        #find link for pdf like <a href='*.pdf'>*</a>  also .xls, xlsx, .zip
+        u = re.findall('<a href="(.+\.)(pdf|xls|xlsx|zip)"', h)
 
         if len(u) > 0:
 
-            ret.append(baseUrl + u[0])
+            ret.append(baseUrl + u[0][0] + u[0][1])
 
     return ret
 
@@ -50,9 +50,9 @@ def downloadFiles(url, downloadDir):
 
     for u in ul:
 
-        f = re.findall('http://.+/(.+\.pdf)',u)[0]
+        f = re.findall('http://.+/(.+\.)(pdf|xls|xlsx|zip)',u)[0]
 
-        downloadFiles_exe(u, os.path.join(downloadDir, f))
+        downloadFiles_exe(u, os.path.join(downloadDir, f[0]+f[1]))
 
     return
 
