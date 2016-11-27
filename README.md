@@ -18,7 +18,7 @@
    ```
    $ python3 src/downloadFiles.py etc/urlList.tsc dl/
    ```  
-    dl/yyyyMMdd/の下に厚生局ごとのフォルダを作成し、リンクされているPDFを全てダウンロードします。  
+    dl/yyyyMMdd/の下に厚生局ごとのフォルダを作成し、リンクされているファイル(拡張子がpdf,xls,xlsx,zipに限る)をダウンロードします。  
       
 * 処理  
     ```
